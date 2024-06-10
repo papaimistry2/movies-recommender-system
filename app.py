@@ -35,7 +35,7 @@ similarity = pickle.load(open('similarity.pkl','rb'))
 
 streamlit.title("Movies Recommender System")
 selected_movie_name = st.selectbox(
-    "Write Movie Name Here.",
+    "How would you like to be contacted?",
     movies['title'].values)
 
 
